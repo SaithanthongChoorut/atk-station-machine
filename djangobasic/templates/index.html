@@ -1,0 +1,60 @@
+{% extends 'layout.html' %} {% block content %}
+<!-- <h2>{{ name }}</h2>
+{% for tag in tags %}
+<span>{{tag}}</span>
+{% endfor %}
+
+<h2>Check rate</h2>
+{% if rating > 3 %}
+<h3>Good</h3>
+{% else %}
+<h3>Meduim</h3>
+{% endif %} -->
+<h2 align="center">Homepage</h2>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <h2>Realtime Report</h2>
+      
+      <table>
+        <tr>
+          <th>User Id</th>
+          <th>Time</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>45300013</td>
+          <td>90866443</td>
+          <td>90736291</td>
+        </tr>
+        <tr>
+          <td>14.08.44</td>
+          <td>16.30.00</td>
+          <td>09.17.34</td>
+        </tr>
+        <tr>
+          <td>10/05/65</td>
+          <td>15/05/65</td>
+          <td>02/06/65</td>
+        </tr>
+</style>
+
+
+{% endblock %}
