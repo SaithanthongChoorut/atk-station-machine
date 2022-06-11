@@ -26,5 +26,5 @@ urlpatterns = [
     path('page4/',views.all_report),
     path('about/',views.about),
     path('user/',views.user),
-    path('firebase/',views.firebase)
+    # path('firebase/',views.firebase)
 ]
